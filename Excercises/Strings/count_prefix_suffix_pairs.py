@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def countPrefixSuffixPairs(self, words: list[str]) -> int:
         """
         Count the number of index pairs (i, j) such that i < j, and words[i] is both a prefix and a suffix of words[j].

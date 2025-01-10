@@ -2,7 +2,7 @@ class Solution:
     def __init__(self):
         self.climb_stairs_cache = {}
 
-    def climbStairs(self, n):
+    def climbStairs(self, n: int) -> int:
         """
         Calculate the number of ways to climb to the top of a staircase, given that each step can be either 1 or 2 steps.
 
