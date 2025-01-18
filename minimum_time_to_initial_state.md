@@ -4,6 +4,31 @@ For more details, see the [LeetCode Problem Description](https://leetcode.com/pr
 
 ## Initial Approach
 
+In my first solution, I simulated the operations step by step to track when the string reverted to its initial state. My process worked like this:
+
+1. **Divide the string into fragments of size** `k` and compare these fragments sequentially:
+
+    - `comparison_fragment` starts from the first `k` characters of the string.
+    - `current_start` moves through subsequent fragments of size `k`.
+
+1. **For each step**:
+
+    - I compared `comparison_fragment` with `current_start`.
+    - If they matched, I moved to the next pair of fragments.
+    - If they didn’t match, I restarted the comparison with `comparison_fragment` set to the first fragment and `current_start` incremented by `k`.
+
+1. **Edge Case**:
+
+    - If the remaining characters in `current_start` were fewer than `k`, I truncated `comparison_fragment` to match the length of `current_start`.
+
+1. The process continued until all fragments matched sequentially, indicating the string had reverted to its initial state. I returned the total number of iterations (`fragment_count`) required.
+
+1. **Fallback**
+
+    - If the string doesn't revert to its initial state within the simulated comparisons, I calculated the fallback as the number of fragments that the word has with `math.ceil(len(word) / k)`. This represents the worst-case scenario, ensuring the function always produces a result.
+
+The key point was to use a **fragment-by-fragment comparison**, resetting the comparison when a mismatch occurred.
+
 ```python
 import math
 
@@ -50,5 +75,11 @@ Not available yet.
 
 ## Complexity
 
-- **Time Complexity**:
-- **Space Complexity**:
+- **Time Complexity**: `O(n)`, where n is the length of the string "word".
+
+    - The `O(n)` comes from the while loop, which processes the string in chunks of size k, iterating a maximum of `ceil(n / k)` times.
+    - Each iteration involves slicing and comparing fragments of size `k`, both of which take `O(k)`, 
+    - So `O(n / k) * O(k) = O(n)`.
+
+- **Space Complexity**: `O(k)`, where `k` is the chunk size.
+    - This comes from the slicing operations (comparison_fragment and current_fragment), which temporarily hold up to `k` characters in memory. No additional data structures are used.
