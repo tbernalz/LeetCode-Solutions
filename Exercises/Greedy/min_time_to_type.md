@@ -6,15 +6,15 @@ For more details, see the [LeetCode Problem Description](https://leetcode.com/pr
 
 I initially thought of mapping each letter to its position using a dictionary (abecedarium) and tracking the current position on the typewriter. The idea was straightforward: for each character in the word, calculate the clockwise and counter-clockwise distances and then add the smaller of the two distances to the total time, along with 1 second for pressing the key. After typing a letter, I updated the current position to reflect the newly typed character.
 
-``` Python
+```Python
 class Solution(object):
     def minTimeToType(self, word: str) -> int:
         """
         Calculate the minimum number of seconds to type a word on a circular typewriter.
-        
+
         Args:
             word(str): The word to type.
-            
+
         Returns:
             int: Minimum number of seconds to type the word.
         """
@@ -33,7 +33,7 @@ class Solution(object):
                 distance = abs(distance - len(abecedarium))
             seconds += distance + 1
             current_char_position = abecedarium[i]
-        
+
         return seconds
 
 ```
@@ -45,9 +45,11 @@ After looking at other solutions and getting some help, I learned that I could s
 ## Complexity
 
 **Initial Approach**:
-* **Time Complexity**: `O(n)`, where n is the length of the input word.
-* **Space Complexity**: `O(1)`, as the dictionary is fixed and no additional space is used relative to the input size.
+
+- **Time Complexity**: `O(n)`, where n is the length of the input word.
+- **Space Complexity**: `O(1)`, as the dictionary is fixed and no additional space is used relative to the input size.
 
 **Optimized Solution**:
-* **Time Complexity**: `O(n)`, where n is the length of the input word.
-* **Space Complexity**: `O(1)`, as no additional data structures are used.
+
+- **Time Complexity**: `O(n)`, where n is the length of the input word.
+- **Space Complexity**: `O(1)`, as no additional data structures are used.

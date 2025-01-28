@@ -14,7 +14,7 @@ Not available yet.
 
 ## Complexity
 
-- **Time Complexity**: `O(n * k)`, where `n` is the lenght of the array and `k` is the length of the longest common prefix or the first string
+- **Time Complexity**: `O(n * k)`, where `n` is the length of the array and `k` is the length of the longest common prefix or the first string
 
   - The O(n) comes from the loop iterating through all the `strs` words.
   - The O(k) is due to for each string, the startswith() operation compares characters in the prefix, which can take O(k) in the worst case. Thus, the total time complexity is `O(n * k)`.

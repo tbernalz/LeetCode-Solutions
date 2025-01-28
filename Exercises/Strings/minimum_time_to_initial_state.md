@@ -71,11 +71,26 @@ class Solution:
 
 ## Optimized Solution
 
-Not available yet.
+Looking through the LeetCode forum, I realized that there's an operator for strings called `.startswith()`, which is useful for checking if a string begins with a specific substring. This method is highly efficient because it avoids manual comparisons of substrings character by character and directly leverages Python's built-in optimizations for string operations.
+
+When I saw the optimized code, I realized it was better for both simplicity and performance. Instead of simulating the operations step-by-step and comparing fragments manually, the `.startswith()` method allows for directly checking if the remaining part of the string aligns with its beginning after slicing. This makes the solution more concise and computationally efficient, eliminating unnecessary loops and comparisons.
 
 ## Complexity
 
+**Initial Approach**:
+
 - **Time Complexity**: `O(n)`, where n is the length of the string "word".
+
+    - The `O(n)` comes from the while loop, which processes the string in chunks of size k, iterating a maximum of `ceil(n / k)` times.
+    - Each iteration involves slicing and comparing fragments of size `k`, both of which take `O(k)`, 
+    - So `O(n / k) * O(k) = O(n)`.
+
+- **Space Complexity**: `O(k)`, where `k` is the chunk size.
+    - This comes from the slicing operations (comparison_fragment and current_fragment), which temporarily hold up to `k` characters in memory. No additional data structures are used.
+
+**Optimized Solution**:
+
+- **Time Complexity**: `O(n/k)`, where n is the length of the string "word" and k is the chunk size.
 
     - The `O(n)` comes from the while loop, which processes the string in chunks of size k, iterating a maximum of `ceil(n / k)` times.
     - Each iteration involves slicing and comparing fragments of size `k`, both of which take `O(k)`, 

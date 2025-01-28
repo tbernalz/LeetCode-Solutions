@@ -74,7 +74,7 @@ While researching on LeetCode discussions, I learned about **bitwise operations*
 
 - **Time Complexity**: `O(log(n))`, where n is the number given.
 
-why log(n)?????
+   - The O(log(n)) comes because in each iteration of the `while` loop, it divides `n` by `2`. This reduces the size of `n` exponentially, and the number of iterations required is proportional to the number of bits in the binary representation of `n`.
 
 - **Space Complexity**: `O(1)`, as no additional data structures are used, and all operations are performed in-place.
 

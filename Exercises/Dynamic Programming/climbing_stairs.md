@@ -21,5 +21,10 @@ By introducing caching, the solution saves the results of previously solved subp
 
 ## Complexity
 
-* **Time Complexity**: `O(n)`
-* **Space Complexity**: `O(n)`
+**Initial Approach**:
+* **Time Complexity**: `O(2^n)`, where n is the number of stairs to climb.
+* **Space Complexity**: `O(n)`, as the maximum depth of the recursion stack is n due to the recursive calls for each subproblem.
+
+**Optimized Solution**:
+* **Time Complexity**: `O(n)`, where n is the number of stairs to climb.
+* **Space Complexity**: `O(n)`, as the cache stores the results of all subproblems, and the recursion stack can grow up to n calls.
