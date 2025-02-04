@@ -12,6 +12,7 @@ A collection of LeetCode problems I've solved, organized by topic. This reposito
 - [Greedy Algorithms](./Exercises/Greedy/)
 - [Hash Tables](./Exercises/Hash%20Table/)
 - [Math](./Exercises/Math/)
+- [Sliding Window](./Exercises/Sliding%20Window/)
 - [Strings](./Exercises/Strings/)
 - [Trees](./Exercises/Trees/)
 - [Two Pointers](./Exercises/Two%20Pointers/)
@@ -29,6 +30,7 @@ LeetCode-Solutions/
 │   ├── Greedy/
 │   ├── Hash Table/
 │   ├── Math/
+│   ├── Sliding Window/
 │   ├── Strings/
 │   ├── Trees/
 │   └── Two Pointers/
