@@ -9,6 +9,7 @@ A collection of LeetCode problems I've solved, organized by topic. This reposito
 - [Arrays ](./Exercises/Arrays/)
 - [Bit Manipulation](./Exercises/Bit%20Manipulation/)
 - [Dynamic Programming](./Exercises/Dynamic%20Programming/)
+- [Graphs](./Exercises/Graphs/)
 - [Greedy Algorithms](./Exercises/Greedy/)
 - [Hash Tables](./Exercises/Hash%20Table/)
 - [Math](./Exercises/Math/)
@@ -27,6 +28,7 @@ LeetCode-Solutions/
 │   │   └── solution_documentation_example.md
 │   ├── Bit Manipulation/
 │   ├── Dynamic Programming/
+│   ├── Graphs/
 │   ├── Greedy/
 │   ├── Hash Table/
 │   ├── Math/
