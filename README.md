@@ -7,6 +7,7 @@ A collection of LeetCode problems I've solved, organized by topic. This reposito
 ## Topics Covered
 
 - [Arrays ](./Exercises/Arrays/)
+- [Binary Search](./Exercises/Binary%20Search/)
 - [Bit Manipulation](./Exercises/Bit%20Manipulation/)
 - [Dynamic Programming](./Exercises/Dynamic%20Programming/)
 - [Graphs](./Exercises/Graphs/)
@@ -26,6 +27,7 @@ LeetCode-Solutions/
 │   ├── Arrays/
 │   │   ├── exercise_solved_example.py
 │   │   └── solution_documentation_example.md
+│   ├── Binary Search/
 │   ├── Bit Manipulation/
 │   ├── Dynamic Programming/
 │   ├── Graphs/
@@ -56,7 +58,7 @@ LeetCode-Solutions/
 ```
 ✅ Easy: 23/150
 ✅ Medium: 2/100
-❌ Hard: 0/50
+✅ Hard: 0/50
 ```
 
 ## Contributing
