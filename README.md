@@ -56,9 +56,9 @@ LeetCode-Solutions/
 ## Progress Tracker:
 
 ```
-✅ Easy: 23/150
-✅ Medium: 2/100
-✅ Hard: 0/50
+✅ Easy: 25/180
+✅ Medium: 10/96
+✅ Hard: 1/24
 ```
 
 ## Contributing
