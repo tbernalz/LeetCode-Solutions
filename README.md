@@ -13,6 +13,7 @@ A collection of LeetCode problems I've solved, organized by topic. This reposito
 - [Graphs](./Exercises/Graphs/)
 - [Greedy Algorithms](./Exercises/Greedy/)
 - [Hash Tables](./Exercises/Hash%20Table/)
+- [Linked Lists](./Exercises/Linked%20Lists/)
 - [Math](./Exercises/Math/)
 - [Sliding Window](./Exercises/Sliding%20Window/)
 - [Strings](./Exercises/Strings/)
@@ -33,6 +34,7 @@ LeetCode-Solutions/
 │   ├── Graphs/
 │   ├── Greedy/
 │   ├── Hash Table/
+│   ├── Linked Lists/
 │   ├── Math/
 │   ├── Sliding Window/
 │   ├── Strings/
@@ -56,7 +58,7 @@ LeetCode-Solutions/
 ## Progress Tracker:
 
 ```
-✅ Easy: 25/180
+✅ Easy: 26/180
 ✅ Medium: 10/96
 ✅ Hard: 1/24
 ```
