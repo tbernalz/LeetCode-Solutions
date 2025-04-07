@@ -15,6 +15,7 @@ A collection of LeetCode problems I've solved, organized by topic. This reposito
 - [Hash Tables](./Exercises/Hash%20Table/)
 - [Linked Lists](./Exercises/Linked%20Lists/)
 - [Math](./Exercises/Math/)
+- [Queues](./Exercises/Queues/)
 - [Sliding Window](./Exercises/Sliding%20Window/)
 - [Strings](./Exercises/Strings/)
 - [Trees](./Exercises/Trees/)
@@ -36,6 +37,7 @@ LeetCode-Solutions/
 │   ├── Hash Table/
 │   ├── Linked Lists/
 │   ├── Math/
+│   ├── Queues/
 │   ├── Sliding Window/
 │   ├── Strings/
 │   ├── Trees/
@@ -58,8 +60,8 @@ LeetCode-Solutions/
 ## Progress Tracker:
 
 ```
-✅ Easy: 26/180
-✅ Medium: 10/96
+✅ Easy: 34/180
+✅ Medium: 16/96
 ✅ Hard: 1/24
 ```
 
