@@ -7,6 +7,7 @@ A collection of LeetCode problems I've solved, organized by topic. This reposito
 ## Topics Covered
 
 - [Arrays ](./Exercises/Arrays/)
+- [Backtracking](./Exercises/Backtracking/)
 - [Binary Search](./Exercises/Binary%20Search/)
 - [Bit Manipulation](./Exercises/Bit%20Manipulation/)
 - [Dynamic Programming](./Exercises/Dynamic%20Programming/)
@@ -29,6 +30,7 @@ LeetCode-Solutions/
 │   ├── Arrays/
 │   │   ├── exercise_solved_example.py
 │   │   └── solution_documentation_example.md
+│   ├── Backtracking/
 │   ├── Binary Search/
 │   ├── Bit Manipulation/
 │   ├── Dynamic Programming/
@@ -61,7 +63,7 @@ LeetCode-Solutions/
 
 ```
 ✅ Easy: 34/180
-✅ Medium: 16/96
+✅ Medium: 19/96
 ✅ Hard: 1/24
 ```
 
