@@ -4,7 +4,16 @@ For more details, see the [LeetCode Problem Description](https://leetcode.com/pr
 
 ## Initial Approach
 
-aaaaaaaaa
+The initial approach involves checking all possible directions from the king's position to find the nearest queen in each direction that can attack the king. The key idea is to explore all 8 possible directions (horizontal, vertical, and diagonal) from the king's position and stop as soon as a queen is encountered in any direction.
+
+1. **Convert Queens to a Set**: First, the positions of the queens are converted into a set for `O(1)` lookups.
+
+1. **Explore Directions**: For each of the 8 possible directions, the algorithm moves step by step away from the king until it either:
+
+   - Goes out of the chessboard bounds (8x8 grid), or encounters a queen.
+   - The first queen encountered in each direction is added to the result list since it can attack the king without any blocking pieces.
+
+This approach efficiently narrows down the queens that can attack the king by leveraging the chess rules for queen movement and ensuring no blocking pieces are in the way.
 
 ## Optimized Solution
 
