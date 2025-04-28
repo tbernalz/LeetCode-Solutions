@@ -1,4 +1,4 @@
-## Identify the Largest Outlier in an Array
+# Identify the Largest Outlier in an Array
 
 For more details, see the [LeetCode Problem Description](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/description/).
 
