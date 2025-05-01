@@ -14,6 +14,6 @@ Not available yet.
 
 ## Complexity
 
-- **Time Complexity**: `O(n)`, where n is the lenght of the array.
+- **Time Complexity**: `O(n)`, where n is thelength of the array.
 
-- **Space Complexity**: `O(n)`, where n is the lenght of the array.
+- **Space Complexity**: `O(n)`, where n is thelength of the array.
