@@ -3,6 +3,17 @@ from typing import List
 
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
+        """
+        Calculates the number of pawns ('p') a white rook ('R') can capture in one
+        move on an 8x8 chessboard represented by a list of strings.
+
+        Args:
+            board(List[List[str]]): A list of 8 lists of strings, where each string
+            is a single character representing a square on the 8x8 chessboard.
+
+        Returns:
+            The total number of pawns the white rook can capture in one move.
+        """
         rook_position = []
         result = 0
 
